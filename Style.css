@@ -1,0 +1,133 @@
+body {
+background-color: #1c3558;
+color: white;
+font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+padding: 60px 20px;
+background-color: #1c3558;
+}
+
+.hero h1 {
+font-weight: bold;
+font-size: 2.5rem;
+}
+
+.hero span {
+color: #4eb0f7;
+}
+
+.hero p {
+color: #cccccc;
+max-width: 500px;
+margin: auto;
+}
+
+.hero img {
+width: 180px;
+height: 180px;
+object-fit: contain;
+border-radius: 50%;
+background-color: white;
+padding: 10px;
+margin-top: 20px;
+}
+
+.btn-custom {
+background-color: #4eb0f7;
+color: white;
+font-weight: 600;
+padding: 10px 30px;
+border: none;
+}
+
+.footer {
+background-color: #13263c;
+padding: 50px 20px;
+}
+
+.footer-info {
+max-width: 400px;
+}
+
+.social-icons a {
+color: white;
+margin-right: 10px;
+font-size: 20px;
+}
+
+.link-box {
+background-color: white;
+color: #333;
+padding: 30px;
+border-radius: 10px;
+max-width: 400px;
+margin-top: 20px;
+}
+
+.btn-instagram {
+background-color: #E1306C;
+color: white;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: 600;
+display: inline-block;
+border-radius: 6px;
+margin-top: 10px;
+}
+
+.btn-instagram:hover {
+background-color: #c32660;
+}
+.glow-blink {
+width: 200px;
+height: auto;
+border-radius: 10px;
+animation: glowBlink 1s ease-in-out infinite;
+}
+
+@keyframes glowBlink {
+0% {
+filter: drop-shadow(0 0 0px #00bfff);
+}
+20% {
+filter: drop-shadow(0 0 30px #00bfff) brightness(1.6);
+}
+40% {
+filter: drop-shadow(0 0 0px #00bfff);
+}
+100% {
+filter: drop-shadow(0 0 0px #00bfff);
+}
+}
+#intro-border {
+animation: rgbBorder 3s linear;
+border: 6px solid transparent;
+padding: 10px;
+position: relative;
+z-index: 1;
+}
+
+@keyframes rgbBorder {
+0% {
+box-shadow: 0 0 0px red;
+border-color: red;
+}
+25% {
+box-shadow: 0 0 15px orange;
+border-color: orange;
+}
+50% {
+box-shadow: 0 0 15px green;
+border-color: green;
+}
+75% {
+box-shadow: 0 0 15px blue;
+border-color: blue;
+}
+100% {
+box-shadow: 0 0 0px transparent;
+border-color: transparent;
+}
+}
